@@ -14,10 +14,7 @@ steps:
   inputs:
     SonarQube: 'SonarQube_ADO'
     scannerMode: 'cli'
-    configMode: 'manual'
-    cliProjectKey: 'demo'
-    cliProjectName: 'springboot-ado'
-    cliSources: '.'
+
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
