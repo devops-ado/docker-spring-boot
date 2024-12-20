@@ -13,7 +13,7 @@ steps:
 - task: SonarQubePrepare@7
   inputs:
     SonarQube: 'SonarQube_ADO'
-    scannerMode: 'cli'
+    scannerMode: 'other'
 
 - task: Maven@3
   inputs:
